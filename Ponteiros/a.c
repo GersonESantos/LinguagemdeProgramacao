@@ -18,7 +18,6 @@ int main() {
 
     *ptr = 73;
     display(var, ptr);
-    printf("\nEnd.");
-    while (1);
+
     return 0;
 }
