@@ -1,4 +1,4 @@
-#include <mysql/mysql.h>
+#include <C:\conectorC\include/mysql.h>
 #include <stdio.h>
 
 int main() {
