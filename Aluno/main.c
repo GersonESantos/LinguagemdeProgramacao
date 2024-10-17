@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <winsock2.h>
-#include <C:\conectorC\include/mysql.h>
+#include <C:\conectorC\include\mysql.h>
 
 MYSQL *__stdcall obterConexao()
 {

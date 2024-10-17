@@ -1,0 +1,4 @@
+Nome: Ger
+Matricula: 123
+Ano de Ingresso: 2024
+Curso: ciencia
