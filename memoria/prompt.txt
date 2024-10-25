@@ -1,0 +1,19 @@
+
+criar um programa em C
+Criando 20 numeros aleatórios
+Criando o arranjo (memoria estatica)
+
+Tempo de criacao do arranjo (memoria estatica): 0.00 segundos
+Criando a lista encadeada (memoria dinâmica)
+Tempo de criacao da lista encadeada (memoria dinamica):
+Ordenando o arranjo estatico via Bubble Sort
+Tempo de ordenacao do arranjo (memoria estatica)
+Arranjo apos ordenacao Bubble Sort.
+Tempo de ordenacao da lista encadeada (memoria dinamica):
+Retirando terceiro elemento da lista encadeada
+Mostrando lista encadeada
+Tempo de remocao da lista encadeada (memoria dinamica):
+
+
+
+

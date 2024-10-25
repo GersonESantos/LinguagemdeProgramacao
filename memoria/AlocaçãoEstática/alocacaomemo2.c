@@ -12,7 +12,7 @@ int main ()
     // atribuição do valor 18 à variável X
     x = 18;
     
-    for(i = 0; i < 10; i++)
+    for(i = 0; i <= 10; i++)
     {
         vetor[i] = i;
         
