@@ -9,6 +9,9 @@ struct info
 
 int main()
 {
+
+    //(Dinâmica): Usa alocação dinâmica, útil se a estrutura precisa ser manipulada em tempo de execução
+    // ou compartilhada entre funções.
     // Alocando memória para a estrutura
     struct info* M = (struct info*) malloc(sizeof(struct info));
 

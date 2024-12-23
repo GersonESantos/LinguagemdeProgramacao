@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h> // Necessário para strcspn
 #include <locale.h>
 
 struct ALUNO {
