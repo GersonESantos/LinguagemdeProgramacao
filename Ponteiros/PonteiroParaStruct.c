@@ -1,3 +1,7 @@
+//Ponteiro para Struct
+//https://www.youtube.com/watch?v=MciBI4xxhEw
+//
+
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct{

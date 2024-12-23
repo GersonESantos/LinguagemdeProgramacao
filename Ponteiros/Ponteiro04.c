@@ -8,16 +8,16 @@ int main() {
     pt = &count;
     setlocale(LC_ALL, "Portuguese");
     
-    printf("O valor contido na variavel count é %i\n", count);
+    printf("O valor contido na variavel count e %i\n", count);
     
-    printf("O endereço contido no ponteiro pt é %p\n", pt);
+    printf("O endereï¿½o contido no ponteiro pt ï¿½ %p\n", pt);
     
-    printf("O valor contido no endereço armazenado no ponteiro *pt é %i\n", *pt);
+    printf("O valor contido no endereï¿½o armazenado no ponteiro *pt ï¿½ %i\n", *pt);
     
     *pt = 30;
-    printf("O valor contido na variavel count agora é %i\n", count);
-    printf("O endereço contido no ponteiro pt agora é %p\n", pt);
-    printf("O valor contido no endereço armazenado no ponteiro *pt agora é %i\n", *pt);
+    printf("O valor contido na variavel count agora ï¿½ %i\n", count);
+    printf("O endereï¿½o contido no ponteiro pt agora ï¿½ %p\n", pt);
+    printf("O valor contido no endereï¿½o armazenado no ponteiro *pt agora ï¿½ %i\n", *pt);
 
     return 0;
 }
