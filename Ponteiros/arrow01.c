@@ -1,27 +1,36 @@
 #include <stdio.h>
-
-struct info
+#include <stdlib.h> // Para malloc
+#include <string.h> // Para strcpy
+typedef struct
 { 
-    char *name; 
-    char *Apelido; 
-};
+    char name[50]; 
+    char apelido[30]; 
+}rgFilho;
 
 int main()
 {
-    //(Estática): Mais simples e eficiente para casos em que não há necessidade de alocação dinâmica.
-    // Declarando a estrutura diretamente
-    struct info M;
+    rgFilho filho;
 
-    // Inicializando os campos
-    M.name = "Gerson Eustaquio Dos Santos";
-    M.Apelido = "GersonES";
+    strcpy(filho.name, "Gerson Eustaquio Dos Santos");
+    strcpy(filho.apelido, "GersonES");
 
-    // Imprimindo os dados
-    printf("Minhas Informações:");
-    printf("\nNome:    %s", M.name);
-    printf("\nApelido: %s", M.Apelido);
+    printf("\n\n");
+    printf("1) Variavel registro com o operador ponto(.)\n");
+    printf("Nome: %s\n", filho.name);
+    printf("Apelido: %s\n", filho.apelido);
 
-    
+    rgFilho *p;
+    p = &filho;
+
+    printf("\n\n"); 
+    printf("2) variavel ponteiro com o operador seta(->)\n");
+    printf("Nome: %s\n", p->name);
+    printf("Apelido: %s\n", p->apelido);
+
+    printf("\n\n"); 
+    printf("3) operador ponteiro com o operador ponto(.)\n");
+    printf("Nome: %s\n", (*p).name);
+    printf("Apelido: %s\n", (*p).apelido);
 
     return 0;
 }
